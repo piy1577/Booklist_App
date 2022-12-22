@@ -1,0 +1,72 @@
+/*default conditions*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* heading */
+
+.header {
+    font-size: 50px;
+    font-weight: 100;
+    width: 100vw;
+    padding: 30px;
+    text-align: center;
+}
+
+.header span {
+    color: dodgerblue;
+}
+
+/* form elements editing  */
+
+form {
+    width: 100vw;
+    padding: 1.5vw;
+    font-size: 20px;
+}
+
+input {
+    width: 97vw;
+    padding: 1.5vw;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 97vw;
+    padding: 1.5vw;
+    margin-bottom: 10px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* table element editing */
+table {
+    width: 100vw;
+    padding: 20px;
+}
+
+th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+th:nth-last-of-type(1) {
+    width: 45%;
+}
+
+td {
+    background-color: lightgray;
+}
